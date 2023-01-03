@@ -1,0 +1,35 @@
+.page{
+  background: #0d147a;
+  width: 100%;
+  height: 100vh;
+}
+
+.ponto{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: block;
+  background: #f1f1f1;
+
+  top: 120px;
+  left: 20px;
+}
+
+.botao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.botao button {
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  color: #0d147a;
+  background: yellowgreen;
+  border-radius: 2.5px;
+}
